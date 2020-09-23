@@ -284,7 +284,7 @@ const SummarySection = props => {
           Conviction Voting allows everyone to participate and shape the direction of 1Hive, while preventing anyone from taking control or ownership.
         </p>
 
-        <Button as={Link} outlined to="/docs/v1">
+        <Button as={Link} outlined to="/docs/dao">
           Read more
         </Button>
       </StyledImgSection>

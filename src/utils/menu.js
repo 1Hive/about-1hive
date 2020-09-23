@@ -29,7 +29,7 @@ const menu = [
     sublinks: [
       {
         name: '1hive Handbook',
-        link: '/docs/v1',
+        link: '/docs/dao',
         description: 'Learn about 1hive and how to contribute'
       },
 

@@ -120,7 +120,7 @@ const SideBar = props => {
   const data = useStaticQuery(graphql`
     query {
       topNavDocsV1: allDirectory(
-        filter: { sourceInstanceName: { eq: "docs" }, relativeDirectory: { eq: "v1" } }
+        filter: { sourceInstanceName: { eq: "docs" }, relativeDirectory: { eq: "dao" } }
         sort: { fields: name, order: ASC }
       ) {
         edges {
@@ -144,7 +144,7 @@ const SideBar = props => {
         }
       }
       docsV1: allMdx(
-        filter: { fileAbsolutePath: { regex: "/docs/v1/" } }
+        filter: { fileAbsolutePath: { regex: "/docs/dao/" } }
         sort: { order: ASC, fields: fileAbsolutePath }
       ) {
         edges {
@@ -190,7 +190,7 @@ const SideBar = props => {
   const navData = v2Toggle ? data.topNavDocsV2 : data.topNavDocsV1
   const listData = v2Toggle ? data.docsV2 : data.docsV1
 
-  const atTopLevel = props.path === '/docs/v1/' || props.path === '/docs/honeyswap/' || props.path === '/docs/honeyswap' || props.path === '/docs/v1'
+  const atTopLevel = props.path === '/docs/dao/' || props.path === '/docs/honeyswap/' || props.path === '/docs/honeyswap' || props.path === '/docs/dao'
 
 
   return (
@@ -200,7 +200,7 @@ const SideBar = props => {
           <StyledLink
             isActive={atTopLevel}
             style={{ marginBottom: '.25rem', display: 'inline-block', padding: !atTopLevel && '0px' }}
-            to={`/docs/${v2Toggle ? 'honeyswap' : 'v1'}/`}
+            to={`/docs/${v2Toggle ? 'honeyswap' : 'dao'}/`}
           >
             Introduction
           </StyledLink>
@@ -208,7 +208,7 @@ const SideBar = props => {
           <StyledLink
             isActive={atTopLevel}
             style={{ marginBottom: '1rem', display: 'inline-block', padding: !atTopLevel && '0px', fontSize: '14px' }}
-            to={`/docs/${v2Toggle ? 'honeyswap' : 'v1'}/`}
+            to={`/docs/${v2Toggle ? 'honeyswap' : 'dao'}/`}
           >
             {'<- Home'}
           </StyledLink>
@@ -225,7 +225,7 @@ const SideBar = props => {
               path={props.path}
               parent={props.parent}
               atTopLevel={atTopLevel}
-              topLevel={v2Toggle ? '/docs/honeyswap' : '/docs/v1'}
+              topLevel={v2Toggle ? '/docs/honeyswap' : '/docs/dao'}
             />
           ))}
       </ListWrapper>
