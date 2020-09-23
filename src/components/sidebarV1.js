@@ -107,7 +107,7 @@ function List(props) {
       const activePath = node.fields.slug
       return (
         <StyledListItem key={node.id}>
-          <StyledLink onClick={() => scrollTo('#docs-header')} isActive={props.path === activePath} to={activePath}>
+          <StyledLink onClick={() => window.scrollTo('#docs-header')} isActive={props.path === activePath} to={activePath}>
             {title}
           </StyledLink>
         </StyledListItem>
