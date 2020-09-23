@@ -378,9 +378,9 @@ const SideBar = props => {
         {atTopLevel && (
           <StyledList style={{ marginTop: '1rem' }}>
             <SectionHeader>Reference</SectionHeader>
-            <StyledListItem>
+            {/* TODO(onbjerg): Not used <StyledListItem>
               <StyledLink to={'/docs/honeyswap/SDK/getting-started'}>SDK</StyledLink>
-            </StyledListItem>
+            </StyledListItem>*/}
             <StyledListItem>
               <StyledLink to={'/docs/honeyswap/API/overview'}>API</StyledLink>
             </StyledListItem>
