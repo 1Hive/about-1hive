@@ -210,6 +210,7 @@ export const GlobalStyle = createGlobalStyle`
     }
   }
 
-
-
+  code > a {
+    color: ${({ theme }) => theme.colors.black};
+  }
 `

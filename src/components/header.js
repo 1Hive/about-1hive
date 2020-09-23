@@ -60,7 +60,6 @@ const StyledNavTitle = styled(Link)`
   font-family: 'Inter', sans-serif;
   color: ${({ theme }) => theme.colors.link};
   margin-left: 0.35rem;
-  margin-top: 12px;
   z-index: 999;
   text-decoration: none;
   opacity: 0.4;

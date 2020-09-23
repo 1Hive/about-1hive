@@ -13,7 +13,7 @@ const StyledInfo = styled.a`
   display: inline-block;
   font-weight: 350;
   a {
-    color: #5a3800;
+    color: #C7871E !important;
   }
 
   :hover {

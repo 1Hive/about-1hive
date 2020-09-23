@@ -18,6 +18,7 @@ const StyledInfo = styled.div`
   a {
     padding: 0 0.25rem;
     display: contents;
+    color: #C7871E !important;
   }
 `
 

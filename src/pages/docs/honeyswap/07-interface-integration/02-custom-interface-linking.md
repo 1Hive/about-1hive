@@ -5,7 +5,7 @@ tags: frontend integration, documentation
 
 # Query Parameters
 
-The Uniswap front-end supports URL query parameters to allow for custom linking to the Uniswap frontend. Users and developers can use these query parameters to link to the Uniswap frontend with custom prefilled settings.
+The Honeyswap front-end supports URL query parameters to allow for custom linking to the Honeyswap frontend. Users and developers can use these query parameters to link to the Honeyswap frontend with custom prefilled settings.
 
 Each Page has specific available URL parameters that can be set. Global parameters can be used on all pages.
 
@@ -23,7 +23,7 @@ Theme can be set as `light` or `dark`.
 
 ### Example Usage
 
-`https://app.uniswap.org/#/swap?theme=dark`
+`https://honeyswap.org/#/swap?theme=dark`
 
 ## Swap Page
 
@@ -50,7 +50,7 @@ Two parameters, exactField and exactAmount can be used to set specific token amo
 
 ### Example Usage
 
-`https://app.uniswap.org/#/swap?exactField=input&exactAmount=10&inputCurrency=0x0F5D2fB29fb7d3CFeE444a200298f468908cC942`
+`https://honeyswap.org/#/swap?exactField=input&exactAmount=10&inputCurrency=0x0F5D2fB29fb7d3CFeE444a200298f468908cC942`
 
 ## Pool Page
 
@@ -65,7 +65,7 @@ The Pool page is made up of 2 subroutes: `add`, `remove`.
 
 ### Example Usage
 
-`https://app.uniswap.org/#/add/0x6B175474E89094C44Da98b954EedeAC495271d0F-0xdAC17F958D2ee523a2206206994597C13D831ec7`
+`https://honeyswap.org/#/add/0x6B175474E89094C44Da98b954EedeAC495271d0F-0xdAC17F958D2ee523a2206206994597C13D831ec7`
 
 ## Remove Liquidity
 
@@ -78,4 +78,4 @@ Dash seperated.
 
 ### Example Usage
 
-`https://app.uniswap.org/#/remove/0x6B175474E89094C44Da98b954EedeAC495271d0F-0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2`
+`https://honeyswap.org/#/remove/0x6B175474E89094C44Da98b954EedeAC495271d0F-0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2`

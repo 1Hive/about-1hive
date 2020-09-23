@@ -11,8 +11,8 @@ module.exports = {
     author: `@1HiveOrg`,
     menulinks: menu,
     siteUrl: `https://about.1hive.org`,
-    repository: `https://github.com/1hive/uniswap-org`,
-    commit: process.env.NOW_GITHUB_COMMIT_SHA || `master`
+    repository: `https://github.com/1hive/about-1hive`,
+    commit: process.env.VERCEL_GITHUB_COMMIT_SHA || `master`
   },
   plugins: [
     {

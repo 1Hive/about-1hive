@@ -142,7 +142,7 @@ const Footer = () => {
               </a>
             </code>
           </Commit>
-          <p>© 2020 Uniswap</p>
+          <p>© 2020 Honeyswap</p>
           {/* <div>
             <label>
               <input type="checkbox" onChange={() => themeContext.toggleDark()} checked={themeContext.isDark} /> Dark
@@ -212,6 +212,7 @@ const StyledInput = styled.input`
   box-shadow: none;
   border: 1px solid ${({ theme }) => theme.chaliceGray};
   max-width: 280px;
+  color: ${({ theme }) => theme.textColor};
 
   padding: 4px 0 4px 10px;
 

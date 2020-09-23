@@ -7,7 +7,7 @@ Uniswap V2 is a binary smart contract system. [Core](#core) contracts provide fu
 
 # Core
 
-[Source code](https://github.com/Uniswap/uniswap-v2-core)
+[Source code](https://github.com/1Hive/uniswap-v2-core)
 
 The core consists of a singleton [factory](#factory) and many [pairs](#pairs), which the factory is responsible for creating and indexing. These contracts are quite minimal, even brutalist. The simple rationale for this is that contracts with a smaller surface area are easier to reason about, less bug-prone, and more functionally elegant. Perhaps the biggest upside of this design is that many desired properties of the system can be asserted directly in the code, leaving little room for error. One downside, however, is that core contracts are somewhat user-unfriendly. In fact, interacting directly with these contracts is not recommended for most use cases. Instead, a periphery contract should be used.
 
@@ -27,7 +27,7 @@ Pairs have two primary purposes: serving as automated market makers and keeping 
 
 # Periphery
 
-[Source code](https://github.com/Uniswap/uniswap-v2-periphery)
+[Source code](https://github.com/1Hive/uniswap-v2-periphery)
 
 The periphery is a constellation of smart contracts designed to support domain-specific interactions with the core. Because of Uniswap's permissionless nature, the contracts described below have no special privileges, and are in fact only a small subset of the universe of possible periphery-like contracts. However, they are useful examples of how to safely and efficiently interact with Uniswap V2.
 
