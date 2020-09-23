@@ -14,7 +14,7 @@ const GlobalStyle = createGlobalStyle`
   html {
     background-image: none;
     background-color: ${({ theme }) => theme.backgroundColor};
-}
+  }
 `
 
 const StyledDocs = styled.div`
@@ -43,6 +43,11 @@ const StyledMDX = styled.div`
   margin-bottom: 3rem;
   a {
     color: ${({ theme }) => theme.colors.link};
+  }
+
+  code {
+    background-color: ${({ theme }) => theme.colors.grey2};
+    color: ${({ theme }) => theme.colors.grey8};
   }
 
   figcaption {
