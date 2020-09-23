@@ -148,8 +148,8 @@ const IndexPage = props => {
         <StyledTitle>
           <StyledBodyTitle>Honey is money, for everybody.</StyledBodyTitle>
           <span>
-            <Button href="https://1hive.org/">Open DAO</Button>
-            <Button to="https://honeyswap.org/" as={Link} outlined>
+            <Button href="https://1hive.org/" target="_blank" rel="noopener noreferer">Open DAO</Button>
+            <Button href="https://honeyswap.org/" target="_blank" rel="noopener noreferer" outlined>
               Trade
             </Button>
           </span>
@@ -316,6 +316,8 @@ const ProductsSection = props => {
 
         <MiniCard
           href="https://1hive.org"
+          target="_blank"
+          rel="noopener noreferer"
           title={'1Hive DAO Interface'}
           desc={'Create and stake on Honey distribution proposals'}
           backgroundColor={'#FF9B73'}
@@ -323,6 +325,8 @@ const ProductsSection = props => {
         />
         <MiniCard
           href="https://faucet.1hive.org"
+          target="_blank"
+          rel="noopener noreferer"
           title={'Honey Faucet'}
           desc={'Register with BrightId to claim your Honey'}
           backgroundColor={'#71EEB8'}
@@ -330,6 +334,8 @@ const ProductsSection = props => {
         />
         <MiniCard
           href="https://honeyswap.org"
+          target="_blank"
+          rel="noopener noreferer"
           title={'Honeyswap Interface'}
           desc={'Trade tokens, add liquidity and create new Honeyswap pools.'}
           backgroundColor={'#CBF3EF'}
@@ -337,6 +343,8 @@ const ProductsSection = props => {
         />
         <MiniCard
           href="https://info.honeyswap.org"
+          target="_blank"
+          rel="noopener noreferer"
           title={'Honeyswap Info'}
           desc={'In depth Honeyswap protocol market data.'}
           backgroundColor={'#FFF19F'}
