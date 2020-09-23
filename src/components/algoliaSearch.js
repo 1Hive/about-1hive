@@ -68,6 +68,11 @@ const ClearButton = styled.button`
 `
 
 export default function Search(props) {
+  // TEMP(onbjerg): Disable search until we are accepted into Docsearch.
+  // When this happens we will have to reconfigure all of Docsearch-related
+  // functionality, including the crawl-config.json
+  return <></>
+
   const isV2 = props.path.slice(0, 8) === '/docs/honeyswap'
 
   // filter based on the version of the docs
