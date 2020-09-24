@@ -37,8 +37,16 @@ const menu = [
         name: 'Honeyswap Docs',
         link: '/docs/honeyswap'
       },
+    ]
+  },
+  {
+    name: 'Info',
+    sublinks: [
+      {
+        name: 'Blog',
+        link: '/blog'
+      },
       { name: 'FAQ', link: '/faq'},
-
     ]
   },
   {
