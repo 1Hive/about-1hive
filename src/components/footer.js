@@ -155,7 +155,7 @@ const Footer = () => {
         {data.site.siteMetadata.menulinks.map(item => {
           return (
             <StyledFooterSectionNav key={item.name}>
-              <h4 style={{ fontWeight: 400, marginBottom: '1rem' }}>{item.name}</h4>
+              <h4 style={{ fontWeight: 700, marginBottom: '1rem' }}>{item.name}</h4>
               <Dropdown links={item.sublinks} />
             </StyledFooterSectionNav>
           )

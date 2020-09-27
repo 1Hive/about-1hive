@@ -71,7 +71,7 @@ const StyledSectionTitle = styled.div`
   align-items: center;
   flex-wrap: no-wrap;
   font-weight: ${({ open }) => (open ? 500 : 400)};
-  font-size: 16px;
+  font-size: 18px;
   color: ${({ theme }) => theme.colors.link};
 
   :hover {

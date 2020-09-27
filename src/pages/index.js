@@ -263,7 +263,7 @@ const SummarySection = props => {
   return (
     <StyledSectionFlex>
       <StyledImgSection>
-        <MiniNewInfo to="/blog/launch-uniswap-v2/">
+        <MiniNewInfo to="/blog/honey-launch/">
           <NewPill>
             <LinkTitle>Honey</LinkTitle> Launch
           </NewPill>
