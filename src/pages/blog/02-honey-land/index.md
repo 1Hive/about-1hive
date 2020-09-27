@@ -35,8 +35,8 @@ But there’s good news: we’re going to start farming Honeycomb! The bees are 
 
 This is a fortuitous opportunity for the 1hive community to come together, take a breath, and consciously take steps to optimize our initialization conditions to maximize long term potential. Our friends at the Commons Stack, would call this the “Cultural Build:” establishing the processes, moderation tools, and social expectations that help communities successfully scale. We have two weeks to get ourselves in shape before conviction funding proposals turn back on and we let the honey flow with liquidity mining incentives! We urge everyone in the community to use this time wisely and take steps to solidify our cultural foundation.
 
+<div style="text-align:center"><img src="/bbb.svg" /></div>
 
-## 🐝 Built by Bees!
 As a reminder, 1Hive is a community. There are long time community members who want to see 1Hive thrive, but there is no core team. The community has bootstrapped organically, and all the funds in the common pool are stewarded by the community as a whole. It is your responsibility as a community member to contribute where you can, if you see something you don’t like speak up, take initiative, and help make 1hive what we all want it to bee!
 
 [We want to hear from you!](https://discord.com/invite/D6pZzxU)
@@ -47,4 +47,4 @@ As a reminder, 1Hive is a community. There are long time community members who w
 - How do we create the most shared, sustainable value?
 - What Honeyswap pools are most important to incentivize?
 
-Let’s build a culture together, and remember, this is just the beeginning 🐝 🍯 !
+Let’s build a culture together, and remember, this is just the beeginning 🐝 🍯
