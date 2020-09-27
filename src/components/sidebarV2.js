@@ -345,7 +345,7 @@ const SideBar = props => {
               )
             )
           })}
-        {atTopLevel && (
+        {/* TODO(onbjerg): Not used {atTopLevel && (
           <StyledList style={{ marginTop: '1rem' }}>
             <SectionHeader>Developer Guides</SectionHeader>
             {navData.edges
@@ -378,9 +378,9 @@ const SideBar = props => {
         {atTopLevel && (
           <StyledList style={{ marginTop: '1rem' }}>
             <SectionHeader>Reference</SectionHeader>
-            {/* TODO(onbjerg): Not used <StyledListItem>
+            <StyledListItem>
               <StyledLink to={'/docs/honeyswap/SDK/getting-started'}>SDK</StyledLink>
-            </StyledListItem>*/}
+            </StyledListItem>
             <StyledListItem>
               <StyledLink to={'/docs/honeyswap/API/overview'}>API</StyledLink>
             </StyledListItem>
@@ -388,7 +388,7 @@ const SideBar = props => {
               <StyledLink to={'/docs/honeyswap/smart-contracts/factory'}>Smart Contracts</StyledLink>
             </StyledListItem>
           </StyledList>
-        )}
+        )} */}
       </ListWrapper>
     </StyledSidebar>
   )
