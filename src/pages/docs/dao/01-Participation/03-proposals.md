@@ -3,7 +3,7 @@ title: Proposals
 ---
 1hive uses conviction voting to allocate Honey from a common pool towards community initiatives that add value to the 1hive community.
 
-You can create, monitor, and stake on conviction proposals using the issuance and distribution app located at 1hive.org.
+You can create, monitor, and stake on conviction proposals using the app located at [1hive.org](https://1hive.org/#/).
 
 ### Conviction Primer
 
@@ -17,11 +17,11 @@ For funding proposals, there is an execution threshold that is determined based 
 
 For a deeper dive on the conviction voting, check out this [cadCAD model](https://github.com/BlockScience/Aragon_Conviction_Voting) exploring the mechanism.  
 
-The conviction voting implementation 1hive uses has been developed in collaboration with Aragon, Commons Stack, and Block Science.
+The conviction voting implementation 1hive uses has been developed in collaboration with [Aragon](https://aragon.org/), [Commons Stack](https://commonsstack.org/), and [Block Science](https://block.science/).
 
 ### Submitting proposals
 
-Before submitting a proposal, you should first make a forum post on forum.1hive.org. This is where you can provide a detailed description of your proposal and its rationale. It also provides a venue for discussion and debate among community members.
+Before submitting a proposal, you should first make a forum post on [forum.1hive.org](https://forum.1hive.org/). This is where you can provide a detailed description of your proposal and its rationale. It also provides a venue for discussion and debate among community members.
 
 Currently if you fail to do this, you will simply be asked to withdraw your proposal, in the future you may be required to put up stake which could be challenged if you don't follow the appropriate procedure, so better to just following the rules now.
 

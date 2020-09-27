@@ -62,7 +62,7 @@ const PostHeader = styled.div`
   align-items: center;
   min-width: 550px;
   max-width: 650px;
-  padding: 4rem 0 5rem 0;
+  padding: 4rem 0 2rem 0;
   @media (max-width: 960px) {
     min-width: 100%;
     max-width: 100%;
@@ -220,21 +220,6 @@ const Blog = props => {
               {props.pageContext.frontmatter.date}
             </PostDate>
           </PostMetaData>
-          <div>
-            <Twitter
-              style={{ padding: '0.5em 0.5em' }}
-              solid
-              small
-              message={props.pageContext.frontmatter.title}
-              link={'https://uniswap.org' + props.location.pathname}
-            />
-            <Facebook
-              style={{ padding: '0.5em 0.5em' }}
-              solid
-              small
-              link={'https://uniswap.org' + props.location.pathname}
-            />
-          </div>
         </PostHeader>
 
         <StyledMDX>{props.children}</StyledMDX>

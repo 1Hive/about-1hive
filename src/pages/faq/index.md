@@ -15,7 +15,7 @@ HNY current total supply is currently approximately 25000. The total supply is c
 This rate is directed by honey holders, and therefore is potentially subject to change. However, there is interest in adopting a more predictable issuance policy with a less discretionary governance policy.
 
 
-You can check total supply and current price at https://1hive.org/#/
+You can check total supply and current price at [1hive.org](https://1hive.org/#/).
 
 ### How is it distributed?
 

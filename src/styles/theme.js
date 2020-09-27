@@ -110,7 +110,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
     html {
-    font-size: 16px;
+    font-size: 18px;
     font-variant: none;
     background-color: ${({ theme }) => theme.backgroundColor};
     -webkit-font-smoothing: antialiased;
