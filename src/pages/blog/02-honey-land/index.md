@@ -6,8 +6,6 @@ featuredImage: ./land.jpg
 previewText: 'Over the past week we have seen an explosion in people, energy, and capital flow into the 1hive community. Welcome everyone!'
 ---
 
-![](./bee.png)
-
 
 Over the past week we have seen an explosion in people, energy, and capital flow into the 1hive community. Welcome everyone!
 
