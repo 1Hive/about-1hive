@@ -129,7 +129,7 @@ const Footer = () => {
     <StyledFooter>
       <StyledSection>
         <StyledFooterSection>
-          <EmailSection />
+          {/* TODO: add email subscriptions <EmailSection /> */}
           <Commit>
             Deployed commit:{' '}
             <code>
