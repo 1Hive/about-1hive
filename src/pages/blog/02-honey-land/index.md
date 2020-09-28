@@ -11,12 +11,12 @@ Over the past week we have seen an explosion in people, energy, and capital flow
 
 We are stoked that everyone is as excited as we are about Honey. There are many possibilities for shared value creation that a thriving decentralized and autonomous community can manifest.
 
-That being said… rapid parabolic growth has its challenges! Over the past week we have experience many of them.
+That being said… rapid parabolic growth has its challenges! Over the past week we have experienced many of them.
 
 ## On the technical side
 - Over the weekend the 24 hour transfer limit of 100,000 Dai was hit multiple times, before the bridge validators were able to increase the limit.
 - The brightid social graph has experienced massive growth as people look to get verified in order to participate in the honey faucet, making a process which should be relatively easy feel like a huge and even slightly unfair hurdle.
-- The Graph which is essential to most of our frontend applications, has been fairly inconsistent, likely due to a disparity in capacity directed towards the xDai network relative to Ethereum.
+- xDai's default rpc nodes and blockscout have had outages do to the rapid increase in queries over the past week.
 - An anonymous member of the community reported an issue with the conviction voting app configuration, prompting an adjustment which will disable execution of funding proposals until we can pass a vote to change the configuration (more on this later).
 
 
@@ -29,11 +29,13 @@ That being said… rapid parabolic growth has its challenges! Over the past week
 
 As a decentralized autonomous organization, we are closer to a complex dynamic system than a company. As such, the initial conditions of that system have a profound effect on the result. While the same mechanisms can be copied infinitely, the initial conditions that make them succeed are scarce opportunities. Every fork of bitcoin is just a fork, every ethereum killer is just kidding themselves, but with 1hive we have the potential to create something unique and disruptive - by and for the community.
 
-And our community cares! Today an anonymous community member found a reported a configuration issue in the BeeHive. No 🍯 was lost and we have created an administrative vote to resolve the issue. Anyone with honey can choose to participate in this vote, but there is already sufficient support and no need to take action **(note that if you do participate in the vote and vote yes your tokens will be locked until the vote is concluded)**. The vote duration is set for 2 weeks with 2 day delay before it can be executed, and no conviction funding proposal will be able to be executed during that time.
+And our community cares!
 
-But there’s good news: we’re going to start farming Honeycomb! The bees are swarming and together we’ll coordinate to find the best pools to farm. Then when conviction funding proposals are re-enabled we’ll flow 🍯 to HoneySwap LPs!
+One of the more unexpected contributions came from an anonymous community member who found and reported a configuration issue with conviction voting. An [administrative vote](https://aragon.1hive.org/#/0xe9869a0bbc8fb8c61b7d81c33fa2ba84871b3b0e/0x00f9092e5806628d7a44e496c503cec608e64f1f/vote/4/) to resolve the issue has been created, but conviction funding proposals will not be executable until this vote has concluded. Anyone with honey can choose to participate, but there is already sufficient support and no need to take action **(note that if you do participate in the vote and vote yes your tokens will be locked until the vote is concluded)**. It will take a week to for the voting to end, then a 2 day delay period before the result can be enacted. After that conviction funding proposals will be possible execute and the honey will flow!
 
-This is a fortuitous opportunity for the 1hive community to come together, take a breath, and consciously take steps to optimize our initialization conditions to maximize long term potential. Our friends at the Commons Stack, would call this the “Cultural Build:” establishing the processes, moderation tools, and social expectations that help communities successfully scale. We have two weeks to get ourselves in shape before conviction funding proposals turn back on and we let the honey flow with liquidity mining incentives! We urge everyone in the community to use this time wisely and take steps to solidify our cultural foundation.
+But there’s good news: we've made great progress on the [liquidity mining initiative](hny.farm)! The pools that will be incentivized with honey have not been determined, and will ultimately be determined by which pools receive funding with conviction voting. If there is a specific pool you think should be included in the initial website, we have time this week to add additional pools to the farm, so don't be shy about sharing your ideas! Then when conviction funding proposals are re-enabled we’ll flow 🍯 to HoneySwap LPs!
+
+While we had originally planned for the liquidity mining to start this week, the delay caused by the administrative vote is a fortuitous opportunity for the 1hive community to come together, take a breath, and consciously take steps to optimize our processes in order maximize long term potential. Our friends at the Commons Stack, would call this the “Cultural Build:” establishing the processes, moderation tools, and social expectations that help communities successfully scale. We have some time to get ourselves in shape before conviction funding proposals turn back on and we let the honey flow with liquidity mining incentives! We urge everyone in the community to use this time wisely and take steps to solidify our cultural foundation.
 
 <div style="text-align:center"><img src="/bbb.svg" /></div>
 
