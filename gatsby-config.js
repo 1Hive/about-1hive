@@ -96,19 +96,6 @@ module.exports = {
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-autolink-headers`,
           // `gatsby-remark-check-links`,
-          {
-            resolve: `gatsby-remark-twitter-cards`,
-            options: {
-              title: '1hive', // website title
-              separator: '|', // default
-              author: '@1hiveorg',
-              background: require.resolve('./static/images/twitter_card_bg.jpg'), // path to 1200x630px file or hex code, defaults to black (#000000)
-              fontColor: '#FF3093', // defaults to white (#ffffff)
-              fontStyle: 'sans-serif', // default
-              titleFontSize: 124, // default
-              fontFile: require.resolve('./static/fonts/Inferi-Normal.ttf') // will override fontStyle - path to custom TTF font
-            }
-          },
           `gatsby-remark-smartypants`,
           {
             resolve: `gatsby-remark-images`,
