@@ -59,7 +59,7 @@ After you are verified and sponsored, you can register for periods and claim som
 
 Each period lasts 2 days and you'll need to register to the faucet each period. By claiming on a period, you'll be automatically registered for the next period. Not claiming in a period will forfeit the unclaimed amount.
     
-We have set up bot in the #honey channel that reminds you to claim your HNY.
+We have set up a bot in the #honey channel that reminds you to claim your HNY.
 
 ### How do I get my liquidity onto the xDai chain?
     
