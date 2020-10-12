@@ -4,7 +4,7 @@ title: FAQ
 
 <Info>Didn't find an answer? Join the <a href="https://discord.gg/NTDBRNz">community Discord</a> to get support</Info>
 
-# FAQ :honey_pot: :bee: 
+# FAQ
 
 ### What is the xDAI Chain? 
 
@@ -31,24 +31,24 @@ You can also earn honey simply by participating in the community on github, disc
 While we encourage people to take initiative as individuals, we also like to work together. Self-organizing “swarms” have formed around specific projects (e.g. honeyswap, celeste, gardens), or work areas (e.g. design, communications, engineering). If you’re new to 1hive and want to contribute a good way to start is to find a swarm that interests you and ask how you might help.
     
 
-### How do I buy HNY? :honey_pot:
+### How do I buy HNY?
 
 [Check this step by step guide](https://medium.com/@whitecolidon/honey-token-how-to-buy-it-c48802e2e881)
    
-### What's the total supply of HNY and where can I check it? :honey_pot:
+### What's the total supply of HNY and where can I check it?
     
 The current total supply of HNY ~24,183.2 HNY. There is an issuance rate that goes into the Common Pool (~60% per year), which is directed by Honey holders and is expected to decrease over time.
     
     
 You can check the total supply and the current price at https://1hive.org/
     
-### How is it distributed? :honey_pot:
+### How is it distributed?
 
 The issuance and distribution model for Honey is simple, each block new Honey is issued and accumulates into the Common Pool, and from there it is distributed using a proposal and staking process called conviction voting.
     
 Anyone can submit a proposal requesting a portion of the Common Pool be allocated to a specific beneficiary. Honey holders can stake on the proposals to signal their support. You can access the Honey issuance and distribution dashboard at https://1hive.org/.
     
-### How can I claim my first HNY from the faucet? :honey_pot:
+### How can I claim my first HNY from the faucet?
 
 You have to be verified with BrightID and be sponsored.
 
