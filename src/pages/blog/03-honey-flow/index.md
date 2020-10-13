@@ -1,9 +1,9 @@
 ---
-title: "Start Honey flowing again"
+title: "Let the Honey flow"
 date: "2020-10-13"
 author: "Seeds 🌱"
 featuredImage: ./land.png
-previewText: "Let the farming games begin!"
+previewText: "and the farming games begin!"
 ---
 
 Two weeks have passed and the community has had some time to consolidate. There are a lot of new faces and new contributors from different regions. After having to stop Conviction Voting due to a misconfiguration these last two weeks were a blessing in disguise that gave us breathing space after the explosion of growth we had.
@@ -17,7 +17,7 @@ The pollen distribution using SourceCred is a success, new community members are
 <div style="text-align:center; margin-bottom: 24px;">
   <img src="./when.jpg" />
   <span style="font-style: italic; font-size: 15px;">
-    Cred to Detzy for 
+    Cred to Detzy for
     <a href="https://discord.com/channels/698287700834517064/743890898781339658/764545821651763232">
       this amazing meme
     </a>
