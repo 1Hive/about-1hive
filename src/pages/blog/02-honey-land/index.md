@@ -2,7 +2,7 @@
 title: 'Welcome to Honeyland'
 date: '2020-09-26'
 author: 'Luke Duncan'
-featuredImage: ./land.jpg
+featuredImage: ./land.png
 previewText: 'Over the past week we have seen an explosion in people, energy, and capital flow into the 1hive community. Welcome everyone!'
 ---
 
