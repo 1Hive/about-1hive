@@ -26,7 +26,7 @@ The pollen distribution using SourceCred is a success, new community members are
 
 The conviction voting smart contract issue was fixed and we have everything ready to launch the HNY farming program!
 
-We have created a forum post (link) and 3 proposals to fund the 3 main pools to kickstart the farming which are the following:
+We have created a [forum post](https://forum.1hive.org/t/honeycomb-liquidity-incentives/488) and 3 proposals to fund the 3 main pools to kickstart the farming which are the following:
 
 - “Dai Daisies” 🌼 pool that holds the `HNY-WXDAI` pair with 300 HNY
 - “STAKE Sunflower” 🌻 pool that holds the `HNY-STAKE` pair with 200 HNY
