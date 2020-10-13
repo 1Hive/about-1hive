@@ -1,7 +1,7 @@
 ---
 title: "Start Honey flowing again"
 date: "2020-10-13"
-author: "Seeds"
+author: "Seeds 🌱"
 featuredImage: ./land.png
 previewText: "Let the farming games begin!"
 ---
