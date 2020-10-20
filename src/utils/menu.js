@@ -53,7 +53,7 @@ const menu = [
     name: 'Community',
     sublinks: [
       { name: 'Github', link: 'https://github.com/1hive' },
-      { name: 'Discord', link: 'https://discord.gg/w9QxYrB' },
+      { name: 'Discord', link: 'https://discord.gg/NTDBRNz' },
       { name: 'Discourse', link: 'https://forum.1hive.org' },
       { name: 'Twitter', link: 'https://twitter.com/1hiveorg' }
     ]
