@@ -2,13 +2,11 @@
 title: "A fresh start"
 date: "2020-10-21"
 author: "Seeds 🌱"
-featuredImage: 
+featuredImage: ./land.png
 previewText: "We are thrilled to introduce the new UI version of the 1hive DAO"
 ---
 
 # A fresh start
-
-![](https://i.imgur.com/gNOOb8i.png)
 
 We are thrilled to introduce the new UI version of the 1hive DAO, which introduces a new proposals feed look and feel with profiles integration.
 
@@ -22,6 +20,10 @@ In order to have this information in a decentralized way we decided to use [3Box
 
 In a future iteration this is also going to be the place where we can see each member's skills, in which areas of the community they are contributing and what proposals they are supporting.
 
+<div style="text-align:center; margin-bottom: 24px;">
+  <img src="./profile.png" />
+</div>
+
 ### New Feed
 
 With our renovated feed view we are introducing a couple of new functionalities that we want to share with you.
@@ -31,6 +33,10 @@ With our renovated feed view we are introducing a couple of new functionalities 
 * Quick actions:
     1. Proposals and Suggestions: Performing a thumbs up stakes 5% of your balance to the proposal (suggestions accepted about this number). Performing a thumbs down withdraws your entire support from the proposal.
     2. Decisions: By performing thumbs up you are voting in favour of the proposal and with thumbs down against it.
+
+<div style="text-align:center; margin-bottom: 24px;">
+  <img src="./feed.png" />
+</div>
 
 
 ### Decisions
