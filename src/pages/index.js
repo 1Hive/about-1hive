@@ -380,10 +380,11 @@ const GoalSection = () => {
         <p>
           <b>1Hive</b> seeks to realize a future that is more free, fair, open, and humane.
         </p>
-        <p>To do so we need to create an economic engine that can <b>effectively and sustainably fund public goods</b>.
+        <p>
+          To do so we need to create an economic engine that can <b>effectively and sustainably fund public goods</b>.
         </p>
         <p>
-        By working together to make Honey valuable and then continously distributing it towards public goods we can create a better future for everyone to enjoy.
+          By working together to make Honey valuable and then continuously distributing it towards public goods we can create a better future for everyone to enjoy.
         </p>
       </StyledGoal>
     </StyledSectionFlex>
