@@ -307,50 +307,59 @@ const ProductsSection = props => {
   return (
     <>
       <StyledSectionFlex style={{ paddingBottom: '0px' }}>
-        <StyledGoal style={{ width: '100%', maxWidth: '450px' }}>
+        <StyledGoal style={{ width: '100%', maxWidth: '650px' }}>
           <h1>In Bloom</h1>
           <p>Check out some of these sweet applications and experimental products being worked on by 1Hive community members</p>
         </StyledGoal>
       </StyledSectionFlex>
-      <StyledSectionFlex wrapSmall={false} style={{ paddingTop: '2rem' }}>
-
-        <MiniCard
-          href="https://1hive.org"
-          target="_blank"
-          rel="noopener noreferer"
-          title={'1Hive DAO Interface'}
-          desc={'Create and stake on Honey distribution proposals'}
-          backgroundColor={'#FF9B73'}
-          color={'black'}
-        />
-        <MiniCard
-          href="https://faucet.1hive.org"
-          target="_blank"
-          rel="noopener noreferer"
-          title={'Honey Faucet'}
-          desc={'Register with BrightId to claim your Honey'}
-          backgroundColor={'#71EEB8'}
-          color={'black'}
-        />
-        <MiniCard
-          href="https://honeyswap.org"
-          target="_blank"
-          rel="noopener noreferer"
-          title={'Honeyswap Interface'}
-          desc={'Trade tokens, add liquidity and create new Honeyswap pools.'}
-          backgroundColor={'#CBF3EF'}
-          color={'black'}
-        />
-        <MiniCard
-          href="https://info.honeyswap.org"
-          target="_blank"
-          rel="noopener noreferer"
-          title={'Honeyswap Info'}
-          desc={'In depth Honeyswap protocol market data.'}
-          backgroundColor={'#FFF19F'}
-          color={'black'}
-        />
-
+       <StyledSectionFlex wrapSmall={false} style={{ paddingTop: '2rem' }}>
+        
+          <MiniCard
+            href="https://1hive.org"
+            target="_blank"
+            rel="noopener noreferer"
+            title={'Honeypot'}
+            desc={'DAO to create and stake on governance proposals.'}
+            backgroundColor={'#7CE0D6'}
+            color={'black'}
+          />
+          <MiniCard
+            href="https://faucet.1hive.org"
+            target="_blank"
+            rel="noopener noreferer"
+            title={'Honey Faucet'}
+            desc={'Register with BrightId to claim your Honey.'}
+            backgroundColor={'#CBF3EF'}
+            color={'black'}
+          />
+          <MiniCard
+            href="https://honeyswap.org"
+            target="_blank"
+            rel="noopener noreferer"
+            title={'Honeyswap'}
+            desc={'Swap tokens. Add supply liquidity. Create new pools.'}
+            backgroundColor={'#FFEB6F'}
+            color={'black'}
+          />
+          <MiniCard
+            href="https://info.honeyswap.org"
+            target="_blank"
+            rel="noopener noreferer"
+            title={'Honeyswap Analytics'}
+            desc={'In depth Honeyswap market data.'}
+            backgroundColor={'#FFF19F'}//{'#FFF19F'}
+            color={'black'}
+          />
+          <MiniCard
+            href="https://hny.farm/"
+            target="_blank"
+            rel="noopener noreferer"
+            title={'Honeycomb'}
+            desc={'Stake Honeyswap LP tokens to claim Honey.'}
+            backgroundColor={'#FF9B73'}//{'#FFF19F'}
+            color={'black'}
+          />
+       
       </StyledSectionFlex>
     </>
   )
@@ -362,7 +371,7 @@ const StyledGoal = styled.div`
   p {
     line-height: 155%;
     margin-bottom: 2rem;
-    max-width: 450px;
+    max-width: 650px;
   }
   @media (max-width: 960px) {
     margin-top: 2rem;
