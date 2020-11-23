@@ -28,47 +28,32 @@ const menu = [
     name: 'External Apps',
     sublinks: [
       {
-        name: 'MetaMask',
-        link: 'https://metamask.io/',
-        description: 'Crypto wallet'// - '
+        name: 'BrightID',
+        link: 'https://www.brightid.org/',
+        description: 'Verify for Faucet'
       },
       {
-        name: 'STAKE Bridge',
-        link: 'http://bridge.xdaichain.com/',
-        description: 'xDai token bridge'// - '
+        name: 'MetaMask',
+        link: 'https://metamask.io/',
+        description: 'Crypto wallet'
       },
       {
         name: 'OmniBridge',
         link: 'https://omni.xdaichain.com/',
-        description: 'Any ERC20 token bridge'// - '
+        description: 'Any ERC20 token bridge'
       },
       {
         name: 'Blockscout',
         link: 'https://blockscout.com/poa/xdai/',
-        description: 'Analyze EVM blockchains'// - '
+        description: 'Analyze EVM blockchains'
       },
       {
         name: 'DeFi Pulse',
         link: 'https://defipulse.com/',
-        description: 'DeFi analytics'// - In depth Honeyswap market data.'
+        description: 'DeFi analytics'// - Added to be listed on DeFi Pulse'
       },
     ]
-  },/*
-  {
-    name: 'Documentation',
-    sublinks: [
-      {
-        name: '1hive Handbook',
-        link: '/docs/dao',
-        description: 'Learn about 1hive and how to contribute'
-      },
-      
-      {
-        name: 'Honeyswap Docs',
-        link: '/docs/honeyswap'
-      },
-    ]
-  },*/
+  },
   {
     name: 'Info',
     sublinks: [
