@@ -319,7 +319,7 @@ const ProductsSection = props => {
             target="_blank"
             rel="noopener noreferer"
             title={'Honeypot'}
-            desc={'DAO to create and stake on governance proposals.'}
+            desc={'The DAO to create and stake on distribution proposals.'}
             backgroundColor={'#7CE0D6'}
             color={'black'}
           />

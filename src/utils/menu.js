@@ -1,26 +1,26 @@
 const menu = [
   {
-    name: '1hive Products',
+    name: '1hive Projects',
     sublinks: [
       {
         name: 'Honeypot',
         link: 'https://1hive.org',
-        description: 'DAO Governance'// - Create and stake on proposals'
+        description: 'The DAO proposals'// - Create and stake on proposals'
       },
       {
         name: 'Honey Faucet',
         link: 'https://faucet.1hive.org/',
-        description: 'Claim Free Honey'// - Register with BrightId to claim Honey'
+        description: 'Claim free honey'// - Register with BrightId to claim Honey'
       },
       {
         name: 'Honeyswap',
         link: 'https://honeyswap.org/',
-        description: 'Decentralized Exchange' //Swap & Supply Liquidity - Swap tokens and supply liquidity. Create new pools'
+        description: 'Decentralized exchange' //Swap & Supply Liquidity - Swap tokens and supply liquidity. Create new pools'
       },
       {
         name: 'Honeycomb',
         link: 'https://hny.farm/',
-        description: 'Yield Farming'// - Stake Honeyswap LP tokens to claim Honey.'
+        description: 'Yield farming'// - Stake Honeyswap LP tokens to claim Honey.'
       }
     ]
   },
@@ -30,28 +30,18 @@ const menu = [
       {
         name: 'BrightID',
         link: 'https://www.brightid.org/',
-        description: 'Verify for Faucet'
-      },
-      {
-        name: 'MetaMask',
-        link: 'https://metamask.io/',
-        description: 'Crypto wallet'
+        description: 'Verify here'
       },
       {
         name: 'OmniBridge',
         link: 'https://omni.xdaichain.com/',
-        description: 'Any ERC20 token bridge'
+        description: 'Bridge any ERC20 to xDai'
       },
       {
         name: 'Blockscout',
         link: 'https://blockscout.com/poa/xdai/',
-        description: 'Analyze EVM blockchains'
-      },
-      {
-        name: 'DeFi Pulse',
-        link: 'https://defipulse.com/',
-        description: 'DeFi analytics'// - Added to be listed on DeFi Pulse'
-      },
+        description: 'xDai chain analytics'
+      }, 
     ]
   },
   {
