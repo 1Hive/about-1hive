@@ -1,6 +1,6 @@
 const menu = [
   {
-    name: '1hive Projects',
+    name: '1Hive Projects',
     sublinks: [
       {
         name: 'Honeypot',
@@ -48,7 +48,7 @@ const menu = [
     name: 'Info',
     sublinks: [
       {
-        name: '1hive Handbook',
+        name: '1Hive Handbook',
         link: '/docs/dao',
         description: 'Learn about 1hive and how to contribute'
       },
