@@ -1,9 +1,9 @@
 ---
-title: 1hive and Honey
+title: 1Hive and Honey
 ---
 
 <Info>
-  1hive is a decentralized autonomous organization, like Bitcoin or Ethereum. This website is maintained independently by 1hive community members as a helpful resource.
+  1Hive is a decentralized autonomous organization, like Bitcoin or Ethereum. This website is maintained independently by 1hive community members as a helpful resource.
 </Info>
 
 **1hive** is a decentralized autonomous organization (DAO) that issues and distributes a digital currency called **Honey**.
