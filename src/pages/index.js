@@ -263,7 +263,7 @@ const SummarySection = props => {
   return (
     <StyledSectionFlex>
       <StyledImgSection>
-        <MiniNewInfo href="https://mirror.xyz/gardensdao.eth">
+        <MiniNewInfo href="https://mirror.xyz/gardensdao.eth" target="_blank">
           <NewPill>
             <LinkTitle>Gardens</LinkTitle> Launch
           </NewPill>
