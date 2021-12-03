@@ -194,7 +194,7 @@ const StyledImgSection = styled.div`
   }
 `
 
-const MiniNewInfo = styled(Link)`
+const MiniNewInfo = styled.a`
   transform: rotate(-4deg) scale(0.98);
   color: ${({ theme }) => theme.textColor};
   display: inline-block;
@@ -263,7 +263,7 @@ const SummarySection = props => {
   return (
     <StyledSectionFlex>
       <StyledImgSection>
-        <MiniNewInfo to="https://mirror.xyz/gardensdao.eth">
+        <MiniNewInfo href="https://mirror.xyz/gardensdao.eth">
           <NewPill>
             <LinkTitle>Gardens</LinkTitle> Launch
           </NewPill>
@@ -318,36 +318,36 @@ const ProductsSection = props => {
             href="https://gardens.1hive.org/#/home"
             target="_blank"
             rel="noopener noreferer"
-            title={'Gardens'}
-            desc={`Gardens is a framework for a new kind of DAO - a composable, sufficiently decentralized, and self-improving system, limited only by your community's collective imagination.`}
-            backgroundColor={'#7CE0D6'}
+            title={'Gardens 🌻'}
+            desc={`A framework for a new kind of DAO.`}
+            backgroundColor={'#71EEB8'}
             color={'black'}
           />
           <MiniCard
-            href="https://faucet.1hive.org"
+            href="https://celeste.1hive.org/#/"
             target="_blank"
             rel="noopener noreferer"
-            title={'Celeste'}
-            desc={'Celeste is a subjective oracle used to resolve disputes arising from optimistic actions.'}
-            backgroundColor={'#CBF3EF'}
+            title={'Celeste 🌞'}
+            desc={'A subjective oracle used to resolve disputes.'}
+            backgroundColor={'#FFA581'}
             color={'black'}
           />
           <MiniCard
             href="https://wiki.1hive.org/getting-started/pollen"
             target="_blank"
             rel="noopener noreferer"
-            title={'Pollen'}
-            desc={'Stake Honeyswap LP tokens to claim Honey.'}
-            backgroundColor={'#FF9B73'}//{'#FFF19F'}
+            title={'Pollen 🏵'}
+            desc={'A contributor rank used to recognize contributions.'}
+            backgroundColor={'#FFDD0F'}
             color={'black'}
           />
           <MiniCard
             href="https://honeyswap.org"
             target="_blank"
             rel="noopener noreferer"
-            title={'Honeyswap'}
-            desc={'Swap tokens. Add supply liquidity. Create new pools.'}
-            backgroundColor={'#FFEB6F'}
+            title={'Honeyswap 🌷️'}
+            desc={'Swap tokens. Add liquidity. Create new pools.'}
+            backgroundColor={'#AAF5D4'}
             color={'black'}
           />      
        
