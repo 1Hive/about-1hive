@@ -107,7 +107,7 @@ const StyledButton = styled.button`
 `
 
 const StyledHomeLink = styled(Link)`
-  max-height: 48px;
+  max-height: 113px;
   display: flex;
   align-items: center;
 `
@@ -138,8 +138,8 @@ const StyledUni = styled(Uni)`
     fill: ${({ theme }) => theme.colors.link};
   }
   margin: 0;
-  width: 36px;
-  height: 36px;
+  width: 53px;
+  height: 38px;
   margin-right: 0.35rem;
   margin-top: -4px;
   transform: rotate(0deg);
@@ -156,8 +156,8 @@ const StyledWordmark = styled(Wordmark)`
   margin: 0;
   margin-top: 6px;
   margin-bottom:10px;
-  height: 23px;
-  width: 50px;
+  height: 16px;
+  width: 52px;
 `
 
 const StyledCloseIcon = styled(CloseIcon)`
@@ -257,7 +257,7 @@ const Header = props => {
         <StyledButton type="button" onClick={toggleDarkMode}>
           {darkMode ? <Sun size={20} /> : <Moon size={20} />}
         </StyledButton>
-        {props.path !== undefined && <StyledTradeLink href="https://gardens.1hive.org/#/garden/0x8ccbeab14b5ac4a431fffc39f4bec4089020a155">Open DAO</StyledTradeLink>}
+        {props.path !== undefined && <StyledTradeLink href="https://gardens.1hive.org/#/garden/0x8ccbeab14b5ac4a431fffc39f4bec4089020a155">Open Garden</StyledTradeLink>}
       </StyledNav>
     </StyledHeader>
   )
