@@ -112,7 +112,7 @@ const IndexPage = props => {
           siteUrl
         }
       }
-      unicornImage: file(relativePath: { eq: "honey_image.png" }) {
+      unicornImage: file(relativePath: { eq: "garden_image.png" }) {
         childImageSharp {
           fluid(maxWidth: 1200) {
             ...GatsbyImageSharpFluid_noBase64
@@ -146,11 +146,11 @@ const IndexPage = props => {
       />
       <StyledBody>
         <StyledTitle>
-          <StyledBodyTitle>Honey is money, for everybody.</StyledBodyTitle>
+          <StyledBodyTitle>Together we thrive.</StyledBodyTitle>
           <span>
-            <Button href="https://1hive.org/" target="_blank" rel="noopener noreferer">Open DAO</Button>
-            <Button href="https://honeyswap.org/" target="_blank" rel="noopener noreferer" outlined>
-              Trade
+            <Button href="https://gardens.1hive.org/#/garden/0x8ccbeab14b5ac4a431fffc39f4bec4089020a155" target="_blank" rel="noopener noreferer">Open DAO</Button>
+            <Button href="https://wiki.1hive.org/" target="_blank" rel="noopener noreferer" outlined>
+              Learn
             </Button>
           </span>
         </StyledTitle>
@@ -263,9 +263,9 @@ const SummarySection = props => {
   return (
     <StyledSectionFlex>
       <StyledImgSection>
-        <MiniNewInfo to="/blog/honey-launch/">
+        <MiniNewInfo to="https://mirror.xyz/gardensdao.eth">
           <NewPill>
-            <LinkTitle>Honey</LinkTitle> Launch
+            <LinkTitle>Gardens</LinkTitle> Launch
           </NewPill>
           Read the announcement ↗
           <StyledUnicornImage fadeIn={false} fluid={props.data.unicornImage.childImageSharp.fluid} />
@@ -315,11 +315,11 @@ const ProductsSection = props => {
        <StyledSectionFlex wrapSmall={false} style={{ paddingTop: '2rem' }}>
         
           <MiniCard
-            href="https://1hive.org"
+            href="https://gardens.1hive.org/#/home"
             target="_blank"
             rel="noopener noreferer"
-            title={'Honeypot'}
-            desc={'The DAO to create and stake on distribution proposals.'}
+            title={'Gardens'}
+            desc={`Gardens is a framework for a new kind of DAO - a composable, sufficiently decentralized, and self-improving system, limited only by your community's collective imagination.`}
             backgroundColor={'#7CE0D6'}
             color={'black'}
           />
@@ -327,9 +327,18 @@ const ProductsSection = props => {
             href="https://faucet.1hive.org"
             target="_blank"
             rel="noopener noreferer"
-            title={'Honey Faucet'}
-            desc={'Register with BrightId to claim your Honey.'}
+            title={'Celeste'}
+            desc={'Celeste is a subjective oracle used to resolve disputes arising from optimistic actions.'}
             backgroundColor={'#CBF3EF'}
+            color={'black'}
+          />
+          <MiniCard
+            href="https://wiki.1hive.org/getting-started/pollen"
+            target="_blank"
+            rel="noopener noreferer"
+            title={'Pollen'}
+            desc={'Stake Honeyswap LP tokens to claim Honey.'}
+            backgroundColor={'#FF9B73'}//{'#FFF19F'}
             color={'black'}
           />
           <MiniCard
@@ -340,25 +349,7 @@ const ProductsSection = props => {
             desc={'Swap tokens. Add supply liquidity. Create new pools.'}
             backgroundColor={'#FFEB6F'}
             color={'black'}
-          />
-          <MiniCard
-            href="https://info.honeyswap.org"
-            target="_blank"
-            rel="noopener noreferer"
-            title={'Honeyswap Analytics'}
-            desc={'In depth Honeyswap market data.'}
-            backgroundColor={'#FFF19F'}//{'#FFF19F'}
-            color={'black'}
-          />
-          <MiniCard
-            href="https://hny.farm/"
-            target="_blank"
-            rel="noopener noreferer"
-            title={'Honeycomb'}
-            desc={'Stake Honeyswap LP tokens to claim Honey.'}
-            backgroundColor={'#FF9B73'}//{'#FFF19F'}
-            color={'black'}
-          />
+          />      
        
       </StyledSectionFlex>
     </>
