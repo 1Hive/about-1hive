@@ -142,7 +142,7 @@ const Footer = () => {
               </a>
             </code>
           </Commit>
-          <p>© 2020 Honeyswap</p>
+          <p>© 2021 1Hive</p>
           {/* <div>
             <label>
               <input type="checkbox" onChange={() => themeContext.toggleDark()} checked={themeContext.isDark} /> Dark

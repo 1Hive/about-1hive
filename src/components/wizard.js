@@ -17,13 +17,6 @@ const links = [
         icon: '🌻'
       },
       {
-        title: 'Tulip',
-        link: '/docs/honeyswap/smart-contract-integration/quick-start/',
-        description: 'Working on Honeyswap, a fork of Uniswap v2 on xDai, and trading related infrastructure and products',
-        tag: 'reference',
-        icon: '🌷️'
-      },
-      {
         title: 'Celeste',
         link: '/docs/honeyswap/core-concepts/flash-swaps/',
         description: 'Building a decentralized dispute resolution oracle based on Aragon Court',
@@ -47,7 +40,14 @@ const links = [
         link: '/docs/honeyswap/core-concepts/oracles/',
         description: 'Working on developer and node operations to help community members to keep infrastructure up and running',
         icon: '🌺'
-      }
+      },
+      {
+        title: 'Tulip',
+        link: '/docs/honeyswap/smart-contract-integration/quick-start/',
+        description: 'Working on Honeyswap, a fork of Uniswap v2 on xDai, and trading related infrastructure and products',
+        tag: 'reference',
+        icon: '🌷️'
+      },
     ]
   },
 
