@@ -4,7 +4,7 @@ const menu = [
     sublinks: [
       {
         name: 'Gardens',
-        link: 'http://1hive.org/gardens',
+        link: 'https://about-gardens.webflow.io',
         description: 'Engine of the public economy'// - Create and stake on proposals'
       },
       {
