@@ -4,7 +4,7 @@ const menu = [
     sublinks: [
       {
         name: 'Gardens',
-        link: 'https://about.gardens.1hive.org',
+        link: 'http://1hive.org/gardens',
         description: 'Engine of the public economy'// - Create and stake on proposals'
       },
       {
