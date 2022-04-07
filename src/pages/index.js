@@ -148,7 +148,7 @@ const IndexPage = props => {
         <StyledTitle>
           <StyledBodyTitle>Together we thrive.</StyledBodyTitle>
           <span>
-            <Button href="https://gardens.1hive.org/#/garden/0x8ccbeab14b5ac4a431fffc39f4bec4089020a155" target="_blank" rel="noopener noreferer">Open DAO</Button>
+            <Button href="https://gardens.1hive.org/#/xdai/garden/0x8ccbeab14b5ac4a431fffc39f4bec4089020a155" target="_blank" rel="noopener noreferer">Open DAO</Button>
             <Button href="https://wiki.1hive.org/" target="_blank" rel="noopener noreferer" outlined>
               Learn
             </Button>
