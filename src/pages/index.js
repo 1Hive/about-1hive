@@ -148,9 +148,9 @@ const IndexPage = props => {
         <StyledTitle>
           <StyledBodyTitle>Together we thrive.</StyledBodyTitle>
           <span>
-            <Button href="https://gardens.1hive.org/#/xdai/garden/0x8ccbeab14b5ac4a431fffc39f4bec4089020a155" target="_blank" rel="noopener noreferer">Open DAO</Button>
+            <Button href="https://gardens.1hive.org/#/xdai/garden/0x8ccbeab14b5ac4a431fffc39f4bec4089020a155" target="_blank" rel="noopener noreferer">Open Garden</Button>
             <Button href="https://wiki.1hive.org/" target="_blank" rel="noopener noreferer" outlined>
-              Learn
+              1Hive Wiki
             </Button>
           </span>
         </StyledTitle>
@@ -263,7 +263,7 @@ const SummarySection = props => {
   return (
     <StyledSectionFlex>
       <StyledImgSection>
-        <MiniNewInfo href="https://mirror.xyz/gardensdao.eth" target="_blank">
+        <MiniNewInfo href="https://mirror.xyz/gardensdao.eth/ARZ5e-mRQtuUq9n2guJV5maKWYxWZHt1G_2g5R3EhQ8" target="_blank">
           <NewPill>
             <LinkTitle>Gardens</LinkTitle> Launch
           </NewPill>
@@ -333,11 +333,11 @@ const ProductsSection = props => {
             color={'black'}
           />
           <MiniCard
-            href="https://wiki.1hive.org/getting-started/pollen"
+            href="https://www.youtube.com/channel/UCg0yASRY6TmXDryitYvsJOQ"
             target="_blank"
             rel="noopener noreferer"
-            title={'Pollen 🏵'}
-            desc={'A contributor rank used to recognize contributions.'}
+            title={'1Hive TV 📺'}
+            desc={'YouTube channel for info and entertainment.'}
             backgroundColor={'#FFDD0F'}
             color={'black'}
           />

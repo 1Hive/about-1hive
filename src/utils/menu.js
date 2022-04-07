@@ -17,6 +17,11 @@ const menu = [
         link: 'https://honeyswap.org/',
         description: 'Decentralized exchange' //Swap & Supply Liquidity - Swap tokens and supply liquidity. Create new pools'
       },
+      {
+        name: 'Agave',
+        link: 'https://agave.finance',
+        description: 'Deposits & Lending Protocol' //Swap & Supply Liquidity - Swap tokens and supply liquidity. Create new pools'
+      },
     ]
   },
   {
