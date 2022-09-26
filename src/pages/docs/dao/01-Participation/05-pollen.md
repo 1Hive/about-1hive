@@ -21,4 +21,4 @@ xDai: 0x0...000
 
 Replacing with your accounts.
 
-If you have questions, are interested in how pollen is calculated, or auditing the distributions, just hop on the [`#🏵pollen`](https://discord.gg/KGhQEA) channel.
+If you have questions, are interested in how pollen is calculated, or auditing the distributions, just hop on the [`#🏵pollen`](https://discord.com/invite/D6pZzxU) channel.
