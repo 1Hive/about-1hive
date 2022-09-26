@@ -1,5 +1,3 @@
-import { DISCORD_INVITE_URL } from './constants'
-
 const menu = [
   {
     name: 'Projects',
@@ -79,7 +77,7 @@ const menu = [
     name: 'Community',
     sublinks: [
       { name: 'Github', link: 'https://github.com/1hive' },
-      { name: 'Discord', link: DISCORD_INVITE_URL },
+      { name: 'Discord', link: 'https://discord.com/invite/D6pZzxU' },
       { name: 'Discourse', link: 'https://forum.1hive.org' },
       { name: 'Twitter', link: 'https://twitter.com/1hiveorg' },
     ]
