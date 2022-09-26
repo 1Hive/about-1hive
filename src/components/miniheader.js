@@ -11,11 +11,10 @@ import MenuIcon from '../images/menu.inline.svg'
 import CloseIcon from '../images/x.inline.svg'
 import Discord from '../images/discord.inline.svg'
 import Github from '../images/githubicon.inline.svg'
-import SidebarV1 from '../components/sidebarV1'
-import SidebarV2 from './sidebarV2'
 import { useMediaQuery } from '@react-hook/media-query'
 
 import { useDarkMode } from '../contexts/Application'
+import { DISCORD_INVITE_URL } from '../utils/constants'
 
 const StyledHeader = styled.header`
   display: flex;
@@ -249,7 +248,7 @@ const Header = props => {
             {darkMode ? <Sun size={20} /> : <Moon size={20} />}
           </StyledButton>
           <StyledButton fill>
-            <a href="https://discord.com/invite/D6pZzxU">
+            <a href={DISCORD_INVITE_URL}>
               <Discord />
             </a>
           </StyledButton>
