@@ -18,6 +18,11 @@ const menu = [
         description: 'Decentralized exchange' //Swap & Supply Liquidity - Swap tokens and supply liquidity. Create new pools'
       },
       {
+        name: 'Quests',
+        link: 'https://quests.1hive.org/',
+        description: 'Incentivised bounty platform' // - Create a Quest defining a text description'
+      },
+      {
         name: 'Agave',
         link: 'https://agave.finance',
         description: 'Deposits & Lending Protocol' //Swap & Supply Liquidity - Swap tokens and supply liquidity. Create new pools'
@@ -49,7 +54,7 @@ const menu = [
       },
       {
         name: 'EVMcrispr',
-        link: 'https://evm-crispr.blossom.software',
+        link: 'https://evmcrispr.blossom.software/#/',
         description: 'Terminal for DAO votes'
       },
     ]

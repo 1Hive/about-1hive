@@ -112,7 +112,7 @@ const IndexPage = props => {
           siteUrl
         }
       }
-      unicornImage: file(relativePath: { eq: "garden_image.png" }) {
+      unicornImage: file(relativePath: { eq: "fluid.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 1200) {
             ...GatsbyImageSharpFluid_noBase64
@@ -148,7 +148,7 @@ const IndexPage = props => {
         <StyledTitle>
           <StyledBodyTitle>Together we thrive.</StyledBodyTitle>
           <span>
-            <Button href="https://gardens.1hive.org/#/xdai/garden/0x8ccbeab14b5ac4a431fffc39f4bec4089020a155" target="_blank" rel="noopener noreferer">Open Garden</Button>
+            <Button href="https://gardens.1hive.org/#/xdai/garden/0x8ccbeab14b5ac4a431fffc39f4bec4089020a155" target="_blank" rel="noopener noreferer">Open DAO</Button>
             <Button href="https://wiki.1hive.org/" target="_blank" rel="noopener noreferer" outlined>
               1Hive Wiki
             </Button>
@@ -263,9 +263,9 @@ const SummarySection = props => {
   return (
     <StyledSectionFlex>
       <StyledImgSection>
-        <MiniNewInfo href="https://mirror.xyz/gardensdao.eth/ARZ5e-mRQtuUq9n2guJV5maKWYxWZHt1G_2g5R3EhQ8" target="_blank">
+        <MiniNewInfo href="https://gardens.mirror.xyz/IFcvWIZk3tHaPOoTzKFcU9azEMt_yuxCFJIc2NijbLI" target="_blank">
           <NewPill>
-            <LinkTitle>Gardens</LinkTitle> Launch
+            <LinkTitle>Fluid Proposals</LinkTitle> Pilot
           </NewPill>
           Read the announcement ↗
           <StyledUnicornImage fadeIn={false} fluid={props.data.unicornImage.childImageSharp.fluid} />
@@ -348,6 +348,15 @@ const ProductsSection = props => {
             title={'Honeyswap 🌷️'}
             desc={'Swap tokens. Add liquidity. Create new pools.'}
             backgroundColor={'#AAF5D4'}
+            color={'black'}
+          />
+          <MiniCard
+            href="https://quests.1hive.org"
+            target="_blank"
+            rel="noopener noreferer"
+            title={'Quests 🌟'}
+            desc={`Celeste enabled incentivised bounty platform.`}
+            backgroundColor={'#F7F7CE'}
             color={'black'}
           />      
        
