@@ -21,7 +21,7 @@ The issuance and distribution model for Honey is simple, each block new Honey is
 
 ![Honey Issuance and Distribution Dashboard](./dashboard.png)
 
-Anyone can submit a proposal requesting a portion of the common pool be allocated to a specific beneficiary. Honey holders can stake on the proposals to signal their support. You can access the Honey issuance and distribution dashboard at [1hive.org](https://1hive.org/#/).
+Anyone can submit a proposal requesting a portion of the common pool be allocated to a specific beneficiary. Honey holders can stake on the proposals to signal their support. You can access the Honey issuance and distribution dashboard at [1hive.org](https://1hive.org/#).
 
 We can measure the conviction (support over time) of a proposal as a proportional measure between 0 and 100 percent. Each proposal requires a different conviction threshold in order to be approved, and this threshold depends on how much of the common pool balance the proposal is requesting. So if a request is small, it will require less conviction to be approved, and as the proportion of the common pool requested increases the threshold required approaches infinity.
 

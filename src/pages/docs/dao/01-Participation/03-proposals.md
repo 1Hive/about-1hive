@@ -3,7 +3,7 @@ title: Proposals
 ---
 1hive uses conviction voting to allocate Honey from a common pool towards community initiatives that add value to the 1hive community.
 
-You can create, monitor, and stake on conviction proposals using the app located at [1hive.org](https://1hive.org/#/).
+You can create, monitor, and stake on conviction proposals using the app located at [1hive.org](https://1hive.org/#).
 
 ### Conviction Primer
 
